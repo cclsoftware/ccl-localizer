@@ -1,0 +1,385 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Autocomplete"
+msgstr "Autocompletar"
+
+#: localizer.tools.cpp
+msgctxt "Command"
+msgid "Build Language Pack"
+msgstr "Construir paquete de idioma"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Cleanup"
+msgstr "Limpiar"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Clear Recent Files"
+msgstr "Borrar archivos recientes"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Close"
+msgstr "Cerrar"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Compile All"
+msgstr "Compilar todo"
+
+#: localizer.tools.cpp
+msgctxt "Command"
+msgid "Convert Context"
+msgstr "Convertir contexto"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Copy"
+msgstr "Copiar"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: localizer.editor.cpp localizer.manager.cpp
+msgctxt "Command"
+msgid "Edit"
+msgstr "Editar"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Export"
+msgstr "Exportar"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "File"
+msgstr "Archivo"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Filter by Context"
+msgstr "Filtrar por contexto"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Filter by File"
+msgstr "Filtrar por archivo"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Import"
+msgstr "Importar"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Navigation"
+msgstr "Navegación"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Next Item"
+msgstr "Siguiente ítem"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Open"
+msgstr "Abrir"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Open Folder"
+msgstr "Abrir carpeta"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Paste"
+msgstr "Pegar"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Previous Item"
+msgstr "Item anterior"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Pseudo"
+msgstr "Pseudo"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Recent File"
+msgstr "Archivo reciente"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Redo"
+msgstr "Rehacer"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Reset Filter"
+msgstr "Restablecer filtro"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Revert"
+msgstr "Revertir"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Save"
+msgstr "Guardar"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Save As"
+msgstr "Guardar como"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Set To Original"
+msgstr "Establecer a original"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Strip Context"
+msgstr "Limpiar contexto"
+
+#: localizer.tools.cpp
+msgctxt "Command"
+msgid "Tools"
+msgstr "Herramientas"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Undo"
+msgstr "Deshacer"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Update"
+msgstr "Actualizar"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "View"
+msgstr "Ver"
+
+#: localizer.manager.cpp
+msgctxt "FileType"
+msgid "Localization Project"
+msgstr "Proyecto de localización "
+
+#: localizer.po.cpp
+msgctxt "FileType"
+msgid "MO File"
+msgstr "Archivo MO "
+
+#: localizer.po.cpp
+msgctxt "FileType"
+msgid "PO Error: %(1) File: %(2), Line: %(3)"
+msgstr "Error PO: %(1) Archivo: %(2), Línea: %(3)"
+
+#: localizer.po.cpp
+msgctxt "FileType"
+msgid "PO File"
+msgstr "Archivo PO "
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "All"
+msgstr "Todo"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid ""
+"Are you sure you want to remove all orphaned translations?\n"
+"\n"
+"This action cannot be undone."
+msgstr ""
+"Está seguro que desea eliminar todas las traducciones huérfanas?\n"
+"\n"
+"Esta acción no puede deshacerse."
+
+#: localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Are you sure you want to revert all changes?"
+msgstr "Está seguro que desea revertir todos los cambios?"
+
+#: localizer.tools.cpp
+msgctxt "Localizer"
+msgid "Build failed. See output window for further details."
+msgstr "Falló construcción. Ver ventana de informes para mayores detalles."
+
+#: localizer.tools.cpp
+msgctxt "Localizer"
+msgid "Build successful."
+msgstr "Construcción satisfactoria"
+
+#: localizer.editor.scopelist.cpp localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Context"
+msgstr "Contexto"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Copy"
+msgstr "Copiar"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Do you want to reset the view filter?"
+msgstr "Desea restablecer el filtro de vista?"
+
+#: localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Do you want to save your changes?"
+msgstr "Desea guardar sus cambios?"
+
+#: editfunctions.cpp
+msgctxt "Localizer"
+msgid "Edit Translation"
+msgstr "Editar traducción"
+
+#: localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Export Options"
+msgstr "Opciones de exportacion"
+
+#: localizer.editor.filelist.cpp localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "File"
+msgstr "Archivo"
+
+#: localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Filter Duplicates"
+msgstr "Filtrar duplicados"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Filter by Context"
+msgstr "Filtrar por contexto"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Filter by File"
+msgstr "Filtrar por archivo"
+
+#: localizer.editor.filelist.cpp
+msgctxt "Localizer"
+msgid "Items"
+msgstr "Items"
+
+#: localizer.tools.cpp
+msgctxt "Localizer"
+msgid "Language Build File"
+msgstr "Archivo de construcción de idioma"
+
+#: localizer.model.cpp
+msgctxt "Localizer"
+msgid "Mismatch in command title usage"
+msgstr "No coincidencia en el uso del título del comando"
+
+#: localizer.model.cpp
+msgctxt "Localizer"
+msgid "Mismatch in use of @value"
+msgstr "No coincidencia en el uso de @value"
+
+#: localizer.editor.occurancelist.cpp
+msgctxt "Localizer"
+msgid "Occurance"
+msgstr "Suceso"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Original"
+msgstr "Original"
+
+#: localizer.model.cpp
+msgctxt "Localizer"
+msgid "Original ends with space but translation does not"
+msgstr "El original termina con espacio pero la traducción no"
+
+#: localizer.model.cpp
+msgctxt "Localizer"
+msgid "Original starts with space but translation does not"
+msgstr "El original empieza con espacio pero la traducción no"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Orphaned"
+msgstr "Huérfana"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Paste"
+msgstr "Pegar"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Reset Filter"
+msgstr "Restablecer filtro"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Set To Original"
+msgstr "Establecer a original"
+
+#: localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Some files failed to load!"
+msgstr "Algunos archivos no se pudieron cargar!"
+
+#: localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Some files failed to save!"
+msgstr "Algunos archivos no se pudieron guardar!"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "This item is currently not displayed."
+msgstr "Este ítem no esta mostrado actualmente."
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Translated"
+msgstr "Traducido"
+
+#: localizer.editor.occurancelist.cpp localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Translation"
+msgstr "Traducción"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Untranslated"
+msgstr "No traducido"
+
+#: localizer.model.cpp
+msgctxt "Localizer"
+msgid "Variable mismatch"
+msgstr "No coincidencia de variables"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Warnings"
+msgstr "Avisos"
+
+#~ msgctxt "FileType"
+#~ msgid "Spreadsheet"
+#~ msgstr "Hoja de cálculo"

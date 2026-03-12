@@ -1,0 +1,179 @@
+{
+	"version": 4,
+	"include":
+	[
+		"../build/cmake/modules/shared/CMakePresets.json"
+	],
+	"cmakeMinimumRequired":
+	{
+		"major": 3,
+		"minor": 30,
+		"patch": 0
+	},
+	"configurePresets":
+	[
+		{
+			"name": "ccldemo-base",
+			"hidden": true,
+			"cacheVariables":
+			{
+				"CMAKE_MODULE_PATH":
+				{
+					"type": "PATH",
+					"value": "${fileDir}/../build/cmake/modules/shared"
+				},
+				"REPOSITORY_ROOT":
+				{
+					"type": "PATH",
+					"value": "${fileDir}/.."
+				},
+				"CCL_APPLICATIONS_ROOT":
+				{
+					"type": "PATH",
+					"value": "${fileDir}/.."
+				}
+			}
+		},
+
+		{
+			"name": "win32",
+			"displayName": "Windows 32bit",
+			"description": "32bit Windows build using Visual Studio 2022",
+			"inherits": ["ccldemo-base", "ccl-win32"]
+		},
+		{
+			"name": "win64",
+			"displayName": "Windows 64bit",
+			"description": "64bit Windows build using Visual Studio 2022",
+			"inherits": ["ccldemo-base", "ccl-win64"]
+		},
+		{
+			"name": "win-arm64",
+			"displayName": "Windows ARM64",
+			"description": "Windows ARM64 build using Visual Studio 2022",
+			"inherits": ["ccldemo-base", "ccl-win-arm64"]
+		},
+		{
+			"name": "win-arm64ec",
+			"displayName": "Windows ARM64EC",
+			"description": "Windows ARM64EC build using Visual Studio 2022",
+			"inherits": ["ccldemo-base", "ccl-win-arm64ec"]
+		},
+
+		{
+			"name": "mac-default-sdk",
+			"displayName": "Mac Default SDK",
+			"description": "Mac build using Xcode and the default locally installed SDK. Use this if the default mac preset's SDK version is not available on your system.",
+			"inherits": ["ccldemo-base", "ccl-mac-base"]
+		},
+		{
+			"name": "mac",
+			"displayName": "Mac (Default)",
+			"description": "Mac build using Xcode and a fixed SDK version. Used by the build server.",
+			"inherits": ["ccldemo-base", "ccl-mac"]
+		},
+
+		{
+			"name": "ios",
+			"displayName": "iOS",
+			"description": "iOS build using Xcode",
+			"inherits": ["ccldemo-base", "ccl-ios"]
+		},
+
+		{
+			"name": "linux-debug",
+			"displayName": "Linux Debug",
+			"description": "Linux Debug build using Ninja",
+			"inherits": ["ccldemo-base", "ccl-linux-debug"]
+		},
+		{
+			"name": "linux-release",
+			"displayName": "Linux Release",
+			"description": "Linux Release build using Ninja",
+			"inherits": ["ccldemo-base", "ccl-linux-release"]
+		},
+		{
+			"name": "linux",
+			"displayName": "Linux Multi-Config",
+			"description": "Linux build using Ninja Multi-Config",
+			"inherits": ["ccldemo-base", "ccl-linux"]
+		},
+
+		{
+			"name": "linux-arm64-debug",
+			"displayName": "Linux ARM64 Debug",
+			"description": "Linux ARM64 Debug build using Ninja",
+			"inherits": ["ccldemo-base", "ccl-linux-arm64-debug"]
+		},
+		{
+			"name": "linux-arm64-release",
+			"displayName": "Linux ARM64 Release",
+			"description": "Linux ARM64 Release build using Ninja",
+			"inherits": ["ccldemo-base", "ccl-linux-arm64-release"]
+		},
+		{
+			"name": "linux-arm64",
+			"displayName": "Linux ARM64 Multi-Config",
+			"description": "Linux ARM64 build using Ninja Multi-Config",
+			"inherits": ["ccldemo-base", "ccl-linux-arm64"]
+		},
+		
+		{
+			"name": "android",
+			"displayName": "Android",
+			"description": "ARM Android build using Android Studio",
+			"inherits": ["ccldemo-base", "ccl-android"]
+		}
+	],
+	"buildPresets":
+	[
+		{
+			"name": "Win32-Debug",
+			"description": "Win32 Debug build preset",
+			"configuration": "Debug",
+			"configurePreset": "win32",
+			"condition":
+			{
+				"type": "equals",
+				"lhs": "${hostSystemName}",
+				"rhs": "Windows"
+			}
+		},
+		{
+			"name": "Win32-Release",
+			"description": "Win32 Release build preset",
+			"configuration": "Release",
+			"configurePreset": "win32",
+			"condition":
+			{
+				"type": "equals",
+				"lhs": "${hostSystemName}",
+				"rhs": "Windows"
+			}
+		},
+		{
+			"name": "Win64-Debug",
+			"description": "Win64 Debug build preset",
+			"configuration": "Debug",
+			"configurePreset": "win64",
+			"condition":
+			{
+				"type": "equals",
+				"lhs": "${hostSystemName}",
+				"rhs": "Windows"
+			}
+		},
+		{
+			"name": "Win64-Release",
+			"description": "Win64 Release build preset",
+			"configuration": "Release",
+			"configurePreset": "win64",
+			"condition":
+			{
+				"type": "equals",
+				"lhs": "${hostSystemName}",
+				"rhs": "Windows"
+			}
+		}
+	]
+}

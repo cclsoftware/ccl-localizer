@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skin>
+	<Imports>
+		<Import url="@neutralbase"/>
+		<Import url="@neutraldesign"/>
+		<Import url="@fileicons"/>
+	</Imports>
+
+    <Includes>
+        <Include url="appwindow.xml"/>
+    </Includes>
+</Skin>
+

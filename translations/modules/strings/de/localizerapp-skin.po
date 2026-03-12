@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: appwindow.xml
+msgctxt "ApplicationWindow"
+msgid "Items:"
+msgstr "Einträge:"
+
+#: appwindow.xml
+msgctxt "ApplicationWindow"
+msgid "Language"
+msgstr "Sprache"
+
+#: appwindow.xml
+msgctxt "ApplicationWindow"
+msgid "Show:"
+msgstr "Anzeigen:"
+
+#: appwindow.xml
+msgctxt "ApplicationWindow"
+msgid "Sort by:"
+msgstr "Sortieren nach:"
+
+#: appwindow.xml
+msgctxt "InspectorView"
+msgid "@cmd.title[]"
+msgstr "@cmd.title[]"
+
+#: appwindow.xml
+msgctxt "InspectorView"
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: appwindow.xml
+msgctxt "InspectorView"
+msgid "Original"
+msgstr "Ursprungstext"
+
+#: appwindow.xml
+msgctxt "InspectorView"
+msgid "Translation"
+msgstr "Übersetzung"
+
+#: appwindow.xml
+msgctxt "SearchView"
+msgid "Case sensitive"
+msgstr "Groß-/Kleinschreibung unterscheiden"
+
+#: appwindow.xml
+msgctxt "SearchView"
+msgid "Exact match"
+msgstr "Genaue Übereinstimmung"
+
+#: appwindow.xml
+msgctxt "SearchView"
+msgid "Find what:"
+msgstr "Suchen nach:"
+
+#: appwindow.xml
+msgctxt "SearchView"
+msgid "Look in:"
+msgstr "Suchen in:"
+
+#: appwindow.xml
+msgctxt "SearchView"
+msgid "Search"
+msgstr "Suchen"
+
+#: appwindow.xml
+msgctxt "SearchView"
+msgid "Search options:"
+msgstr "Sucheinstellungen:"

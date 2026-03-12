@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: appwindow.xml
+msgctxt "ApplicationWindow"
+msgid "Items:"
+msgstr "項目:"
+
+#: appwindow.xml
+msgctxt "ApplicationWindow"
+msgid "Language"
+msgstr "言語"
+
+#: appwindow.xml
+msgctxt "ApplicationWindow"
+msgid "Show:"
+msgstr "表示:"
+
+#: appwindow.xml
+msgctxt "ApplicationWindow"
+msgid "Sort by:"
+msgstr "次で並び替え:"
+
+#: appwindow.xml
+msgctxt "InspectorView"
+msgid "@cmd.title[]"
+msgstr "@cmd.title[]"
+
+#: appwindow.xml
+msgctxt "InspectorView"
+msgid "Edit"
+msgstr "編集"
+
+#: appwindow.xml
+msgctxt "InspectorView"
+msgid "Original"
+msgstr "オリジナル"
+
+#: appwindow.xml
+msgctxt "InspectorView"
+msgid "Translation"
+msgstr "翻訳"
+
+#: appwindow.xml
+msgctxt "SearchView"
+msgid "Case sensitive"
+msgstr "大文字と小文字を区別"
+
+#: appwindow.xml
+msgctxt "SearchView"
+msgid "Exact match"
+msgstr "完全一致"
+
+#: appwindow.xml
+msgctxt "SearchView"
+msgid "Find what:"
+msgstr "検索:"
+
+#: appwindow.xml
+msgctxt "SearchView"
+msgid "Look in:"
+msgstr "次を検索:"
+
+#: appwindow.xml
+msgctxt "SearchView"
+msgid "Search"
+msgstr "検索"
+
+#: appwindow.xml
+msgctxt "SearchView"
+msgid "Search options:"
+msgstr "検索オプション:"

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skin>
+	<Resources>
+		<Image name="ArrowDown"		url="images/ArrowDown.png"	frames="h: normal mouseover disabled"/>		
+		<Image name="ArrowUp"		url="images/ArrowUp.png"	frames="h: normal mouseover disabled"/>
+		<Image name="ArrowLeft"		url="images/ArrowLeft.png"	frames="normal mouseover disabled"/>
+		<Image name="ArrowRight"	url="images/ArrowRight.png"	frames="normal mouseover disabled"/>
+		
+		<Image name="AppIcon" url="images/AppIcon.png"/>
+	</Resources>
+	
+	<Styles>		
+		<Style name="StringEditor" inherit="Standard.EditBox" textalign="left top" textoptions="wordbreak"/>
+
+		<Style name="SearchField" inherit="Standard.EditBox" textalign="left vcenter"/>
+				
+		<Style name="AboutLabel" inherit="Standard.Label"/>
+
+		<Style name="ConsoleBack" backcolor="black" textcolor="white"/>
+		
+		<Style name="ConsoleList" inherit="ConsoleBack">
+			<Metric name="rowHeight" value="16"/>
+			<Font name="textfont" themeid="StandardUI"/>
+		</Style>
+	</Styles>
+
+	<Forms>
+		<!-- ******************************************************************************************** -->
+        <!-- Application Window -->
+        <!-- ******************************************************************************************** -->
+
+		<Form name="ApplicationWindow" windowstyle="windowstyle sizable maximize inflate restoresize restorepos" options="colorize" style="Standard.WindowBackground" attach="all">
+			<using controller="Manager/Editor">
+			<Horizontal attach="all" margin="5" spacing="0" options="unifysizes" persistence.id="ProjectZone">
+				<Vertical attach="all" persistence.id="FilterZone" options="unifysizes">
+					<using controller="../FolderSelector">
+					<Horizontal margin="0" attach="left right top">
+						<Label title="Language" height="23"/>
+						<SelectBox name="languageList" width="200" height="23" attach="left right"/>
+					</Horizontal>
+					</using>
+					<ListView name="fileList" persistence.id="FileList" width="200" height="117" options="selection header" scrolloptions="border autohideboth" attach="all"/>
+					<Divider width="200" options="vertical" attach="left right"/>
+					<ListView name="scopeList" persistence.id="ScopeList" width="200" height="350" options="selection header" scrolloptions="border autohideboth" attach="all"/>
+				</Vertical>
+				<Divider height="500" options="horizontal" attach="top bottom"/>
+				<Vertical attach="all" persistence.id="EditorZone">
+					<Horizontal width="600" attach="left right" margin="0">
+						<Label height="23" title="Sort by:"/>
+						<SelectBox name="sortBy" width="120" height="23" options="border"/>
+						<Label title="Show:" height="23"/>
+						<SelectBox name="stringMode" width="200" height="23" options="border fittext"/>
+						<Label title="Items:" height="23"/>
+						<TextBox name="stringCount" width="80" height="23" options="border"/>
+						<Space attach="left right fill"/>
+					</Horizontal>
+					<ListView name="stringList" persistence.id="StringList" width="600" height="300" options="selection header" scrolloptions="border autohideboth" attach="all"/>
+					<Divider width="600" options="vertical" attach="left right"/>
+					<TabView width="600" height="200" attach="all">
+						<View name="InspectorView" width="600" height="200" attach="all"/>
+						<View name="SearchView" width="600" height="200" attach="all"/>
+					</TabView>
+				</Vertical>
+			</Horizontal>
+			</using>
+		</Form>
+		
+		<Form name="InspectorView" title="Edit">
+			<Horizontal attach="all" options="unifysizes" persistence.id="InspectorZone">
+				<Vertical attach="all" margin="0" spacing="2">
+					<Label title="Original" style="Standard.TabView"/>
+					<Horizontal margin="0" spacing="5" attach="left right">
+						<using controller="Inspector">
+							<TextBox name="keyString" width="222" height="40" options="border multiline" attach="left right" style="StringEditor"/>
+						</using>
+						
+						<Horizontal margin="0" spacing="0" attach="right">						
+							<Button icon="ArrowDown" width="22" name="setToOriginal" tooltip="@cmd.title[]" attach="vcenter"/>
+							<Space width="5"/>
+							<Button icon="ArrowLeft" width="24" name="prevItem" tooltip="@cmd.title[]" attach="vcenter"/>
+							<Button icon="ArrowRight" width="24" name="nextItem" tooltip="@cmd.title[]" attach="vcenter"/>
+						</Horizontal>						
+					</Horizontal>
+					<Space/>
+					<Label title="Translation" style="Standard.TabView"/>
+					<using controller="Inspector">
+						<EditBox name="translation" width="300" height="40" sizelimits="0,40,-1,-1" options="border multiline" attach="all" style="StringEditor"/>
+					</using>
+				</Vertical>
+				<Divider height="80" options="horizontal" attach="top bottom"/>
+				<ListView name="occuranceList" persistence.id="OccuranceList" width="300" height="80" options="selection header" scrolloptions="border autohideboth" attach="all"/>
+			</Horizontal>
+		</Form>
+		
+		<Form name="SearchView" title="Search">
+			<Vertical attach="all" options="unifysizes">
+				<Horizontal margin="0" attach="left right">
+					<Label title="Find what:" attach="vcenter"/>
+					<EditBox name="searchString" width="200" options="border immediate" style="SearchField"/>
+					<Label title="Look in:" attach="vcenter"/>
+					<SelectBox name="searchMode" width="160" options="border"/>
+					<Space attach="left right fill"/>
+				</Horizontal>
+				<Horizontal margin="0" attach="left right">
+					<Label title="Search options:" attach="vcenter"/>
+					<CheckBox name="searchExactMatch" title="Exact match" attach="vcenter"/>
+					<CheckBox name="searchCaseSensitive" title="Case sensitive" attach="vcenter"/>
+					<Space attach="left right fill"/>
+				</Horizontal>
+				<ListView name="searchResults" persistence.id="SearchResults" width="300" height="80" options="selection header" scrolloptions="border autohideboth" attach="all"/>
+			</Vertical>
+		</Form>
+		
+		<!-- ******************************************************************************************** -->
+        <!-- Console -->
+        <!-- ******************************************************************************************** -->
+
+		<Form name="Console" title="" windowstyle="center" style="ConsoleBack" options="colorize">
+			<Vertical>
+				<ListView name="eventList" width="500" height="500" scrolloptions="border canscrollv" style="ConsoleList"/>
+			</Vertical>
+		</Form>
+
+		<!-- ******************************************************************************************** -->
+        <!-- About -->
+        <!-- ******************************************************************************************** -->
+		
+		<?xstring off?>
+		<Form name="AboutApplication" title="About $APPNAME">
+			<Horizontal margin="20">
+				<ImageView image="AppIcon"/>
+				<Vertical spacing="2">
+					<Space/>
+					<TextBox name="appNameAndVersion" height="15" options="transparent" style="AboutLabel" attach="hfit"/>
+					<Label title="Translations Editor for $CCLNAME&reg;" style="AboutLabel"/>
+					<Space/>
+					<Label title="Copyright &copy; $COPYYEAR $CCLAUTHOR. All Rights Reserved" style="AboutLabel"/>
+					<Anchor url="https://ccl.dev">
+						<Link title="For more information, please visit ccl.dev." style="AboutLabel"/>
+					</Anchor>
+					<Space/>
+					<Label title="3rd party software used in this product:" style="AboutLabel" />
+					<Anchor url="https://www.gnu.org/software/gettext/">
+						<Link title="GNU gettext Copyright &copy;1998-$COPYYEAR Free Software Foundation, Inc." style="AboutLabel"/>
+					</Anchor>
+					<Anchor url="local://$deployment/license/">				
+						<Link title="See license folder for further details." style="AboutLabel" />
+					</Anchor>
+					<!--
+					<Space/>
+					<Space/>
+					<Space/>
+					<Space/>
+					<Space/>
+					<Space/>
+					<DialogButton result="close" attach="hcenter"/>
+					-->
+				</Vertical>
+			</Horizontal>
+		</Form>
+		<?xstring?>
+
+	</Forms>
+</Skin>
+

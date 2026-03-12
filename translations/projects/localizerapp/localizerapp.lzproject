@@ -1,0 +1,60 @@
+{
+	"languages":
+	[
+		{
+			"name": "German",
+			"folders": 
+			[
+				"../../modules/strings/de"
+			]
+		},
+		{
+			"name": "Spanish",
+			"folders": 
+			[
+				"../../modules/strings/es"
+			]
+		},
+		{
+			"name": "French",
+			"folders": 
+			[
+				"../../modules/strings/fr"
+			]
+		},
+		{
+			"name": "Japanese",
+			"folders": 
+			[
+				"../../modules/strings/ja"
+			]
+		},
+		{
+			"name": "Chinese",
+			"folders": 
+			[
+				"../../modules/strings/zh"
+			]
+		},
+		{
+			"name": "Polish",
+			"folders": 
+			[
+				"../../modules/strings/pl"
+			]
+		}
+	],
+	"files":
+	[
+		"cclapp.po",
+		"cclextras.po",
+		"cclgui-skin.po",
+		"cclgui.po",
+		"cclplatform.po",
+		"cclsystem.po",
+		"neutraldesign-skin.po",
+		"localizerapp.po",
+		"localizerapp-menu.po",
+		"localizerapp-skin.po"
+	]
+}

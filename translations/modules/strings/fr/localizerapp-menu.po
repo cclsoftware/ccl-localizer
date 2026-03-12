@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "$APPNAME"
+msgstr "$APPNAME"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "About $APPNAME"
+msgstr "À propos de $APPNAME"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Application"
+msgstr "Application"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Autocomplete"
+msgstr "Saisie automatique"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Batch-Decorate Original"
+msgstr "Lot-Enrichir l'original"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Batch-Decorate Translation"
+msgstr "Lot-Enrichir la traduction"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Build Language Pack"
+msgstr "Construire un pack de langue"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Cleanup"
+msgstr "Nettoyer"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Close"
+msgstr "Fermer"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Compile All"
+msgstr "Tout compiler"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Contents"
+msgstr "Contenu"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Convert Context"
+msgstr "Convertir contexte"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Copy"
+msgstr "Copier"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Decorate Original"
+msgstr "Enrichir l'original"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Decorate Translation"
+msgstr "Enrichir la traduction"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Delete"
+msgstr "Supprimer"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Edit"
+msgstr "Éditer"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Export"
+msgstr "Exporter"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "File"
+msgstr "Fichier"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Filter by Context"
+msgstr "Filtrer par contexte"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Filter by File"
+msgstr "Filtrer par fichier"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Help"
+msgstr "Aide"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Import"
+msgstr "Importer"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Next Item"
+msgstr "Élément suivant"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Open"
+msgstr "Ouvrir"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Open Folder"
+msgstr "Ouvrir dossier"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Paste"
+msgstr "Coller"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Previous Item"
+msgstr "Élément précédent"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Pseudo-Localization"
+msgstr "Pseudo-localisation"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Quit"
+msgstr "Quitter"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Quit $APPNAME"
+msgstr "Quitter $APPNAME"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Redo"
+msgstr "Rétablir"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Reset Filter"
+msgstr "Réinitialiser le filtre"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Revert"
+msgstr "Rappeler la version enregistrée"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Save As"
+msgstr "Sauvegarder sous"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Set To Original"
+msgstr "Régler sur Original"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Strip Context"
+msgstr "Supprimer le contexte"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Tools"
+msgstr "Outils"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Undo"
+msgstr "Annuler"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: menubar.xml
+msgctxt "Menu"
+msgid "View"
+msgstr "Affichage"

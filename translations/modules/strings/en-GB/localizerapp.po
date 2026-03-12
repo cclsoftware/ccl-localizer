@@ -1,0 +1,336 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\localizer.editor.cpp
+msgctxt "Localizer"
+msgid "All"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Are you sure you want to remove all orphaned translations?\n\nThis action cannot be undone."
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Are you sure you want to revert all changes?"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Autocomplete"
+msgstr ""
+
+#: .\languagepackbuilder.cpp
+msgctxt "Command"
+msgid "Build Language Pack"
+msgstr ""
+
+#: .\languagepackbuilder.cpp
+msgctxt "Localizer"
+msgid "Build failed. See output window for further details."
+msgstr ""
+
+#: .\languagepackbuilder.cpp
+msgctxt "Localizer"
+msgid "Build successful."
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Cleanup"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Clear Recent Files"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Close"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Compile All"
+msgstr ""
+
+#: .\localizer.editor.scopelist.cpp .\localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Context"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Copy"
+msgstr ""
+
+#: .\localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Copy"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Delete"
+msgstr ""
+
+#: .\localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Delete"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Do you want to reset the view filter?"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Do you want to save your changes?"
+msgstr ""
+
+#: .\localizer.editor.cpp .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Edit"
+msgstr ""
+
+#: .\editfunctions.cpp
+msgctxt "Localizer"
+msgid "Edit Translation"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Export"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Export Options"
+msgstr ""
+
+#: .\localizer.editor.filelist.cpp .\localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "File"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "File"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Filter Duplicates"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Filter by Context"
+msgstr ""
+
+#: .\localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Filter by Context"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Filter by File"
+msgstr ""
+
+#: .\localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Filter by File"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Import"
+msgstr ""
+
+#: .\localizer.editor.filelist.cpp
+msgctxt "Localizer"
+msgid "Items"
+msgstr ""
+
+#: .\languagepackbuilder.cpp
+msgctxt "Localizer"
+msgid "Language Build File"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "FileType"
+msgid "Localization Project"
+msgstr ""
+
+#: .\localizer.po.cpp
+msgctxt "FileType"
+msgid "MO File"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Navigation"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Next Item"
+msgstr ""
+
+#: .\localizer.editor.occurancelist.cpp
+msgctxt "Localizer"
+msgid "Occurance"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Open"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Open Folder"
+msgstr ""
+
+#: .\localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Original"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Orphaned"
+msgstr ""
+
+#: .\localizer.po.cpp
+msgctxt "FileType"
+msgid "PO Error: %(1) File: %(2), Line: %(3)"
+msgstr ""
+
+#: .\localizer.po.cpp
+msgctxt "FileType"
+msgid "PO File"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Paste"
+msgstr ""
+
+#: .\localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Paste"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Previous Item"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Pseudo"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Recent File"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Redo"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Reset Filter"
+msgstr ""
+
+#: .\localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Reset Filter"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Revert"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Save"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Set To Original"
+msgstr ""
+
+#: .\localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Set To Original"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Some files failed to load!"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Some files failed to save!"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "Strip Context"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Localizer"
+msgid "This item is currently not displayed."
+msgstr ""
+
+#: .\languagepackbuilder.cpp
+msgctxt "Command"
+msgid "Tools"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Translated"
+msgstr ""
+
+#: .\localizer.editor.occurancelist.cpp .\localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Translation"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Undo"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Untranslated"
+msgstr ""
+
+#: .\localizer.manager.cpp
+msgctxt "Command"
+msgid "Update"
+msgstr ""
+
+#: .\localizer.editor.cpp
+msgctxt "Command"
+msgid "View"
+msgstr ""
+

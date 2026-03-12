@@ -1,0 +1,3 @@
+code ../../source ./templates/localizerapp.pot
+skin ../../skin ./templates/localizerapp-skin.pot
+menu ../../resource ./templates/localizerapp-menu.pot

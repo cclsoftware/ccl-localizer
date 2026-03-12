@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.5
+Type=Application
+Name=Localizer
+Exec=/opt/CCL\\\sLocalizer/CCL\\\sLocalizer %u
+Icon=localizerapp
+Categories=Utility;Development

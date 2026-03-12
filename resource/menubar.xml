@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MenuBar>
+		
+    <!-- ********************************************************************************** -->
+    <!-- *** Application menu (Mac) ******************************************************* -->
+    <!-- ********************************************************************************** -->
+
+	<?platform mac?>
+    <Menu name="Application">
+        <MenuItem category="Help" name="About" title="About $APPNAME"/>
+ 		<MenuSeparator/>
+		<MenuPlaceholder name="Languages"/>
+		<MenuPlaceholder name="Appearance"/>
+        <MenuSeparator/>
+		<MenuItem category="File" name="Quit" title="Quit $APPNAME"/>
+    </Menu>
+	<?platform?>
+
+    <!-- ********************************************************************************** -->
+    <!-- *** File Menu ******************************************************************** -->
+    <!-- ********************************************************************************** -->
+
+    <Menu name="File">
+        <MenuItem name="Open" follow="1"/>
+        <MenuItem name="Open Folder" follow="1"/>
+        <MenuItem name="Save"/>
+        <MenuItem name="Save As" follow="1"/>
+        <MenuItem name="Revert"/>
+        <MenuItem name="Close"/>
+
+		<MenuSeparator/>		
+        <MenuItem name="Update" follow="1"/>
+        <MenuItem name="Compile All"/>
+		<MenuSeparator/>
+
+        <MenuItem name="Import" follow="1"/>
+        <MenuItem name="Export" follow="1"/>
+
+		<MenuSeparator/>
+		<MenuPlaceholder name="Recent Files"/>
+
+		<?platform win?>
+		<MenuSeparator/>		
+        <MenuItem name="Quit"/>
+		<?platform?>
+    </Menu>
+
+    <!-- ********************************************************************************** -->
+    <!-- *** Edit Menu ******************************************************************** -->
+    <!-- ********************************************************************************** -->
+
+    <Menu name="Edit">
+        <MenuItem name="Undo"/>
+        <MenuItem name="Redo"/>
+
+		<MenuSeparator/>
+
+        <MenuItem name="Copy"/>
+        <MenuItem name="Paste"/>
+        <MenuItem name="Delete"/>
+        <MenuItem name="Set To Original"/>
+        <MenuItem name="Autocomplete"/>
+        <MenuItem name="Strip Context"/>
+		<MenuSeparator/>
+		
+		<Menu name="Pseudo" title="Pseudo-Localization">
+			<MenuItem name="Decorate Translation"/>
+			<MenuItem name="Decorate Original"/>
+			<MenuSeparator/>
+			<MenuItem name="Batch-Decorate Translation"/>
+			<MenuItem name="Batch-Decorate Original"/>
+		</Menu>
+
+		<MenuSeparator/>
+
+        <MenuItem name="Cleanup"/>
+    </Menu>
+
+    <!-- ********************************************************************************** -->
+    <!-- *** View Menu ******************************************************************** -->
+    <!-- ********************************************************************************** -->
+
+    <Menu name="View">
+        <MenuItem name="Filter by Context"/>
+        <MenuItem name="Filter by File"/>
+		<MenuSeparator/>
+        <MenuItem name="Reset Filter"/>
+		<MenuSeparator/>
+        <MenuItem category="Navigation" name="Previous Item"/>
+        <MenuItem category="Navigation" name="Next Item"/>
+    </Menu>
+
+	<!-- ********************************************************************************** -->
+    <!-- *** Tools Menu ******************************************************************* -->
+    <!-- ********************************************************************************** -->
+
+	<Menu name="Tools">
+		<MenuItem name="Build Language Pack" follow="1"/>
+		<?config debug?>
+		<MenuItem name="Convert Context" follow="1"/>
+		<?config?>
+	</Menu>
+
+	<!-- ********************************************************************************** -->
+	<!-- *** Application Menu (Windows, Linux) ******************************************** -->
+	<!-- ********************************************************************************** -->
+	
+	<?not:platform mac?>
+	<Menu name="Application" title="$APPNAME">
+		<MenuPlaceholder name="Languages"/>
+		<MenuPlaceholder name="Appearance"/>
+	</Menu>
+	<?platform?>
+	
+    <!-- ********************************************************************************** -->
+    <!-- *** Help Menu ******************************************************************** -->
+    <!-- ********************************************************************************** -->
+
+    <Menu name="Help">
+        <MenuItem name="Contents"/>
+		<?platform win?>
+		<MenuSeparator/>
+		<MenuItem name="About" title="About $APPNAME" follow="1"/>
+		<?platform?>
+    </Menu>
+	
+</MenuBar>

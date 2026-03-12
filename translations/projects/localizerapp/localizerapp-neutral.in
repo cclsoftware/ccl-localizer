@@ -1,0 +1,41 @@
+findPath: $(cclTranslationsDir) translations projects/shared/languagepack.macros
+#include: $(cclTranslationsDir)/projects/shared/languagepack.macros
+
+#define: $(TempDir)=~temp
+#define: $(OutDir)=languages
+
+print: Building "$(LanguagePack)"...
+print:
+
+print: Copying prototypes...
+setOutputDir: ./$(TempDir)/$(LanguagePack)
+setInputDir: $(cclTranslationsDir)/locales
+copyFile: $(language).xml > localeinfo.xml
+setInputDir: $(cclTranslationsDir)/icons
+copyFile: $(language).png > language.png
+copyFile: $(language)@2x.png > language@2x.png
+;setInputDir: ./
+;copyFile: tables.properties
+;copyFile: resources.properties
+setInputDir: ./$(language)
+copyFile: metainfo.xml
+
+print: Copying tables...
+
+; Application
+#define: $(hint_file)=localizerapp.mo
+#define: $(table)=localizerapp
+@copyTable
+
+; Framework
+#define: $(hint_file)=cclgui.mo
+#define: $(table)=cclgui
+@copyTable
+#define: $(table)=cclsystem
+@copyTable
+
+print: Packaging files...
+setInputDir: ./$(TempDir)/$(LanguagePack)
+setOutputDir: ./$(OutDir)
+packageFolder-r-z: $(LanguagePack).langpack
+return: $(LanguagePack).langpack

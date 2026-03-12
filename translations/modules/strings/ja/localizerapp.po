@@ -1,0 +1,385 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Autocomplete"
+msgstr "オートコンプリート"
+
+#: localizer.tools.cpp
+msgctxt "Command"
+msgid "Build Language Pack"
+msgstr "言語バックを構築"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Cleanup"
+msgstr "クリーンアップ"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Clear Recent Files"
+msgstr "最近使ったファイルをクリア"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Close"
+msgstr "閉じる"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Compile All"
+msgstr "すべてをコンパイル"
+
+#: localizer.tools.cpp
+msgctxt "Command"
+msgid "Convert Context"
+msgstr "コンテキストを変換"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Copy"
+msgstr "コピー"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Delete"
+msgstr "削除"
+
+#: localizer.editor.cpp localizer.manager.cpp
+msgctxt "Command"
+msgid "Edit"
+msgstr "編集"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Export"
+msgstr "エクスポート"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "File"
+msgstr "ファイル"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Filter by Context"
+msgstr "コンテキストでフィルター"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Filter by File"
+msgstr "ファイルでフィルター"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Import"
+msgstr "インポート"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Navigation"
+msgstr "ナビゲーション"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Next Item"
+msgstr "次のアイテム"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Open"
+msgstr "開く"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Open Folder"
+msgstr "開いたフォルダ"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Paste"
+msgstr "ペースト"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Previous Item"
+msgstr "前のアイテム"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Pseudo"
+msgstr "擬似"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Recent File"
+msgstr "最近使ったファイル"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Redo"
+msgstr "やり直す"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Reset Filter"
+msgstr "フィルターをリセット"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Revert"
+msgstr "元に戻す"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Save"
+msgstr "保存"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Save As"
+msgstr "別名で保存"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Set To Original"
+msgstr "オリジナルに設定"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "Strip Context"
+msgstr "コンテキストをストリップ"
+
+#: localizer.tools.cpp
+msgctxt "Command"
+msgid "Tools"
+msgstr "ツール"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Undo"
+msgstr "取り消す"
+
+#: localizer.manager.cpp
+msgctxt "Command"
+msgid "Update"
+msgstr "更新"
+
+#: localizer.editor.cpp
+msgctxt "Command"
+msgid "View"
+msgstr "表示"
+
+#: localizer.manager.cpp
+msgctxt "FileType"
+msgid "Localization Project"
+msgstr "ローカリゼーションプロジェクト "
+
+#: localizer.po.cpp
+msgctxt "FileType"
+msgid "MO File"
+msgstr "MOファイル"
+
+#: localizer.po.cpp
+msgctxt "FileType"
+msgid "PO Error: %(1) File: %(2), Line: %(3)"
+msgstr "POエラー: %(1) ファイル: %(2)、ライン: %(3)"
+
+#: localizer.po.cpp
+msgctxt "FileType"
+msgid "PO File"
+msgstr "POファイル"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "All"
+msgstr "すべて"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid ""
+"Are you sure you want to remove all orphaned translations?\n"
+"\n"
+"This action cannot be undone."
+msgstr ""
+"作者の不明な翻訳すべてを削除しますか？\n"
+"\n"
+"この操作は取り消せません。"
+
+#: localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Are you sure you want to revert all changes?"
+msgstr "すべての変更を元に戻しますか？"
+
+#: localizer.tools.cpp
+msgctxt "Localizer"
+msgid "Build failed. See output window for further details."
+msgstr "構築に失敗しました。詳しくは出力ウィンドウをご覧ください。"
+
+#: localizer.tools.cpp
+msgctxt "Localizer"
+msgid "Build successful."
+msgstr "構築が完了しました。"
+
+#: localizer.editor.scopelist.cpp localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Context"
+msgstr "コンテキスト"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Copy"
+msgstr "コピー"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Delete"
+msgstr "削除"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Do you want to reset the view filter?"
+msgstr "表示フィルターをリセットしますか？"
+
+#: localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Do you want to save your changes?"
+msgstr "変更内容を保存しますか？"
+
+#: editfunctions.cpp
+msgctxt "Localizer"
+msgid "Edit Translation"
+msgstr "翻訳を編集"
+
+#: localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Export Options"
+msgstr "エクスポートオプション"
+
+#: localizer.editor.filelist.cpp localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "File"
+msgstr "ファイル"
+
+#: localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Filter Duplicates"
+msgstr "重複をフィルタリングする "
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Filter by Context"
+msgstr "コンテキストでフィルター"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Filter by File"
+msgstr "ファイルでフィルター"
+
+#: localizer.editor.filelist.cpp
+msgctxt "Localizer"
+msgid "Items"
+msgstr "項目"
+
+#: localizer.tools.cpp
+msgctxt "Localizer"
+msgid "Language Build File"
+msgstr "言語ビルドファイル"
+
+#: localizer.model.cpp
+msgctxt "Localizer"
+msgid "Mismatch in command title usage"
+msgstr "コマンドタイトル使用の不一致"
+
+#: localizer.model.cpp
+msgctxt "Localizer"
+msgid "Mismatch in use of @value"
+msgstr "@value 使用の不一致"
+
+#: localizer.editor.occurancelist.cpp
+msgctxt "Localizer"
+msgid "Occurance"
+msgstr "発生"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Original"
+msgstr "オリジナル"
+
+#: localizer.model.cpp
+msgctxt "Localizer"
+msgid "Original ends with space but translation does not"
+msgstr "原文は空白で終わるが訳文は空白で終わっていない"
+
+#: localizer.model.cpp
+msgctxt "Localizer"
+msgid "Original starts with space but translation does not"
+msgstr "原文は空白で始まるが訳文は空白で始まっていない"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Orphaned"
+msgstr "作者不明"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Paste"
+msgstr "ペースト"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Reset Filter"
+msgstr "フィルターをリセット"
+
+#: localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Set To Original"
+msgstr "オリジナルに設定"
+
+#: localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Some files failed to load!"
+msgstr "一部のファイルの読み込みに失敗しました。"
+
+#: localizer.manager.cpp
+msgctxt "Localizer"
+msgid "Some files failed to save!"
+msgstr "一部のファイルの保存に失敗しました。"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "This item is currently not displayed."
+msgstr "このアイテムは現在表示されていません。"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Translated"
+msgstr "翻訳済"
+
+#: localizer.editor.occurancelist.cpp localizer.editor.stringlist.cpp
+msgctxt "Localizer"
+msgid "Translation"
+msgstr "翻訳"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Untranslated"
+msgstr "未翻訳"
+
+#: localizer.model.cpp
+msgctxt "Localizer"
+msgid "Variable mismatch"
+msgstr "変数の不一致"
+
+#: localizer.editor.cpp
+msgctxt "Localizer"
+msgid "Warnings"
+msgstr "警告"
+
+#~ msgctxt "FileType"
+#~ msgid "Spreadsheet"
+#~ msgstr "スプレッドシート"

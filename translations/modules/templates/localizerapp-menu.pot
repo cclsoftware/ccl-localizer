@@ -1,0 +1,210 @@
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "$APPNAME"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "About $APPNAME"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Application"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Autocomplete"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Batch-Decorate Original"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Batch-Decorate Translation"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Build Language Pack"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Cleanup"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Close"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Compile All"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Contents"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Convert Context"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Copy"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Decorate Original"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Decorate Translation"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Delete"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Edit"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Export"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "File"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Filter by Context"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Filter by File"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Help"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Import"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Next Item"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Open"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Open Folder"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Paste"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Previous Item"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Pseudo-Localization"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Quit"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Quit $APPNAME"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Redo"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Reset Filter"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Revert"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Save"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Save As"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Set To Original"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Strip Context"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Tools"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Undo"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "Update"
+msgstr ""
+
+#: ./menubar.xml
+msgctxt "Menu"
+msgid "View"
+msgstr ""
+

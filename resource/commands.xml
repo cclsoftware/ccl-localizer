@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Commands>
+
+	<Command category="View" name="Filter by Context">
+		<Key name="F2"/>
+	</Command>
+
+	<Command category="View" name="Filter by File">
+		<Key name="F3"/>
+	</Command>
+
+	<Command category="View" name="Reset Filter">
+		<Key name="F4"/>
+	</Command>
+
+	<Command category="Navigation" name="Previous Item">
+		<Key name="F5"/>
+	</Command>
+
+	<Command category="Navigation" name="Next Item">
+		<Key name="F6"/>
+	</Command>
+
+	<Command category="Edit" name="Set To Original">
+        <Key name="F7"/>
+	</Command>
+
+	<Command category="Edit" name="Autocomplete">
+        <Key name="F8"/>
+	</Command>
+
+</Commands>
