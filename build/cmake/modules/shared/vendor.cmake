@@ -2,7 +2,7 @@ include_guard (DIRECTORY)
 
 set (REPOSITORY_ROOT "${CMAKE_CURRENT_LIST_DIR}/../../../.." CACHE PATH "Root directory of the repository" FORCE)
 
-set (CCL_VERSION_REQUIREMENT "5.0.2" EXACT)
+set (CCL_VERSION_REQUIREMENT "5.1.0" EXACT)
 
 # Add module directories recursively
 list (APPEND VENDOR_MODULE_DIRS "${CMAKE_CURRENT_LIST_DIR}/..")

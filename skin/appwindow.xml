@@ -146,15 +146,8 @@
 					<Anchor url="local://$deployment/license/">				
 						<Link title="See license folder for further details." style="AboutLabel" />
 					</Anchor>
-					<!--
 					<Space/>
-					<Space/>
-					<Space/>
-					<Space/>
-					<Space/>
-					<Space/>
-					<DialogButton result="close" attach="hcenter"/>
-					-->
+					<Label title="Made with &hearts; in Hamburg, Germany" style="AboutLabel"/>
 				</Vertical>
 			</Horizontal>
 		</Form>

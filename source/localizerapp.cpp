@@ -60,7 +60,7 @@ DEFINE_CLASS_HIDDEN (LocalizerApplication, Application)
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 LocalizerApplication::LocalizerApplication ()
-: Application (APP_ID, /*APP_COMPANY*/0, APP_NAME, APP_PACKAGE_ID, APP_VERSION)
+: Application (APP_ID, /*APP_COMPANY*/nullptr, APP_NAME, APP_PACKAGE_ID, APP_VERSION)
 {
 	setWebsite (APP_WEBSITE);
 	setBuildInformation (APP_FULL_NAME);
