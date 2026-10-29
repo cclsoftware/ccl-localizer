@@ -123,6 +123,19 @@
 			"displayName": "Android",
 			"description": "ARM Android build using Android Studio",
 			"inherits": ["ccldemo-base", "ccl-android"]
+		},
+
+		{
+			"name": "wasm-debug",
+			"displayName": "WebAssembly (Emscripten) Debug",
+			"description": "Build using Emscripten SDK for WebAssembly",
+			"inherits": ["ccldemo-base", "ccl-wasm-debug"]
+		},
+		{
+			"name": "wasm-release",
+			"displayName": "WebAssembly (Emscripten) Release",
+			"description": "Build using Emscripten SDK for WebAssembly",
+			"inherits": ["ccldemo-base", "ccl-wasm-release"]
 		}
 	],
 	"buildPresets":

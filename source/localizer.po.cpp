@@ -432,7 +432,7 @@ bool Parser::flush ()
 			// Support for legacy scope format.
 			MutableCString scope;
 			MutableCString original (currentMsgid, Text::kUTF8);
-			const char* start = original.str ();
+			CStringPtr start = original.str ();
 
 			// Tolerate non-scope [] in msgid if msgctxt is present.
 			if(msgctxtFound)
@@ -440,7 +440,7 @@ bool Parser::flush ()
 			else
 			{
 				#if 1 // extract scope name (copied from translationtable.cpp)
-				const char* ptr = start;
+				CStringPtr ptr = start;
 				if(*ptr == '[')
 				{
 					while(*ptr && *ptr != ']')

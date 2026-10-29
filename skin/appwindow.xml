@@ -68,7 +68,7 @@
 		<Form name="InspectorView" title="Edit">
 			<Horizontal attach="all" options="unifysizes" persistence.id="InspectorZone">
 				<Vertical attach="all" margin="0" spacing="2">
-					<Label title="Original" style="Standard.TabView"/>
+					<Label title="Original"/>
 					<Horizontal margin="0" spacing="5" attach="left right">
 						<using controller="Inspector">
 							<TextBox name="keyString" width="222" height="40" options="border multiline" attach="left right" style="StringEditor"/>
@@ -82,7 +82,7 @@
 						</Horizontal>						
 					</Horizontal>
 					<Space/>
-					<Label title="Translation" style="Standard.TabView"/>
+					<Label title="Translation"/>
 					<using controller="Inspector">
 						<EditBox name="translation" width="300" height="40" sizelimits="0,40,-1,-1" options="border multiline" attach="all" style="StringEditor"/>
 					</using>

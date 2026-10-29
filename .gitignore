@@ -31,6 +31,7 @@ build/cmake/android
 build/cmake/mac
 build/cmake/ios
 build/cmake/linux
+build/cmake/wasm
 **/cmake/build
 **/cmake/out
 build/cmake/archive
